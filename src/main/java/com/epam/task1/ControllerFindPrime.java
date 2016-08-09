@@ -24,7 +24,7 @@ public class ControllerFindPrime {
             runPrimesFind(inputData, false);
             System.out.println("===========================================================================================");
             System.out.println(Main.LINE);
-            System.out.printf(Main.FORMAT_STRING_PIPE, "| Finding primes with instantly saving in shared" +
+            System.out.printf(Main.FORMAT_STRING_PIPE, "| Finding primes with instantly saving in shared " +
                     " collection for all tread", "|");
             runPrimesFind(inputData, true);
         } else {
